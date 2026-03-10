@@ -30,19 +30,30 @@ https://www.virtualbox.org/
 
 This is the official website where you can download VirtualBox.
 
+https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/Download.png
 
 
 ### Step 2: Download VirtualBox
 Click **Download VirtualBox**.
 
+https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/Download.png
+
 ### Step 3: Select Windows Hosts
 Choose **Windows hosts** to download the installer for Windows.s
+
+https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/windows%20host.png
 
 ### Step 4: Run the Installer
 Open the downloaded **VirtualBox `.exe` file**.
 
+https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/VM%20in%20downloads.png
+
 ### Step 5: Follow Installation Wizard
 Navigate through the installation prompts and keep the default settings.
 
+https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/next.png
+
 ### Step 6: Finish Installation
 Click **Finish** after installation is completed.
+
+https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/last_install.png
