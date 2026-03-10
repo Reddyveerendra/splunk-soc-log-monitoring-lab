@@ -30,11 +30,13 @@ https://www.virtualbox.org/
 
 This is the official website where you can download VirtualBox.
 
+
+
 ### Step 2: Download VirtualBox
 Click **Download VirtualBox**.
 
 ### Step 3: Select Windows Hosts
-Choose **Windows hosts** to download the installer for Windows.
+Choose **Windows hosts** to download the installer for Windows.s
 
 ### Step 4: Run the Installer
 Open the downloaded **VirtualBox `.exe` file**.
@@ -42,8 +44,5 @@ Open the downloaded **VirtualBox `.exe` file**.
 ### Step 5: Follow Installation Wizard
 Navigate through the installation prompts and keep the default settings.
 
-### Step 6: Install VirtualBox
-Click **Install** when prompted.
-
-### Step 7: Finish Installation
+### Step 6: Finish Installation
 Click **Finish** after installation is completed.
