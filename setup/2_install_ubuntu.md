@@ -29,7 +29,8 @@ https://ubuntu.com/download/server
 
 This page provides the latest Ubuntu Server ISO files.
 
-![Ubuntu Download Page]
+<img width="964" height="481" alt="image" src="https://github.com/user-attachments/assets/f06cad6f-9e96-408a-bbb4-a6bbcb146580" />
+
 
 ---
 
@@ -39,7 +40,8 @@ Download the **Ubuntu 24.04.4 LTS Server ISO image**.
 
 This file will be used to install Ubuntu inside the VirtualBox virtual machine.
 
-![Ubuntu ISO Download]
+<img width="964" height="441" alt="image" src="https://github.com/user-attachments/assets/5ea1b731-2d34-4f96-9feb-04fa06c08207" />
+
 
 ---
 
@@ -53,7 +55,8 @@ Provide the following details:
 - **Type:** Linux  
 - **Version:** Ubuntu (64-bit)
 
-![Create VM]
+<img width="1206" height="832" alt="image" src="https://github.com/user-attachments/assets/26ba4f2d-7db5-416c-bf73-55e619e2a803" />
+
 
 ---
 
@@ -69,7 +72,8 @@ Assign hardware resources to the virtual machine.
 
 These resources are sufficient for running Ubuntu Server and Splunk.
 
-![Resource Allocation]
+<img width="1192" height="816" alt="image" src="https://github.com/user-attachments/assets/a4f41720-b71a-419c-bced-4d6447eecb33" />
+
 
 ---
 
@@ -79,7 +83,8 @@ Go to **Storage Settings** and attach the downloaded **Ubuntu Server ISO file** 
 
 This allows VirtualBox to boot the installer.
 
-![Attach ISO]
+<img width="484" height="195" alt="image" src="https://github.com/user-attachments/assets/1692e518-6197-47a0-afc3-535ebd787308" />
+
 
 ---
 
@@ -89,7 +94,8 @@ Click **Start** to boot the virtual machine.
 
 The Ubuntu installer will start automatically.
 
-![Start VM]
+<img width="961" height="503" alt="image" src="https://github.com/user-attachments/assets/01b4db07-1345-4f1d-b38f-e81fac24b762" />
+
 
 ---
 
@@ -107,8 +113,6 @@ Follow the installation steps:
 
 After installation finishes, restart the virtual machine.
 
-![Ubuntu Installation]
-
 ---
 
 ## Step 8: Login to Ubuntu Server
@@ -120,3 +124,4 @@ You will now have a **fully functional Ubuntu 24.04.4 LTS Server environment** r
 - Installing **Splunk Enterprise**
 - Configuring **log monitoring**
 - Creating **SOC detection rules**
+<img width="961" height="506" alt="image" src="https://github.com/user-attachments/assets/351651da-2b90-438f-b319-e7e5a9dac4f4" />
