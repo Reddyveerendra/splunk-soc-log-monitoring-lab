@@ -32,6 +32,9 @@ sudo systemctl status rsyslog
 
 Expected output should show the service as active (running).
 
+<img width="964" height="508" alt="image" src="https://github.com/user-attachments/assets/6a6fbc7c-ff6b-4738-a183-9e4d094f2566" />
+
+
 ## Step 2: Create a Directory for Custom Logs
 
 Create a directory to store the SSH logs that will be monitored by Splunk.
@@ -41,6 +44,10 @@ sudo mkdir -p /var/log/websrv-02
 Verify the directory:
 
 ls /var/log/
+
+<img width="1784" height="109" alt="image" src="https://github.com/user-attachments/assets/eb2ac7ef-3467-4e97-b90b-2e661c78d898" />
+
+
 ## Step 3: Configure rsyslog to Capture SSH Logs
 
 Edit the rsyslog configuration file.
