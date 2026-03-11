@@ -106,7 +106,9 @@ Click **Review** and then **Submit**.
 Go to the Splunk **Search & Reporting** app and run the following search:
 
 
-index=main sourcetype=linux_secure
+index=main 
+
+<img width="1923" height="940" alt="image" src="https://github.com/user-attachments/assets/b8c734e2-7547-46d9-8f66-17ff70bc8f1d" />
 
 
 You should start seeing authentication logs appearing in Splunk.
@@ -119,5 +121,4 @@ To generate authentication logs, attempt an SSH login to the server.
 
 Example:
 
-```bash
 ssh username@localhost
