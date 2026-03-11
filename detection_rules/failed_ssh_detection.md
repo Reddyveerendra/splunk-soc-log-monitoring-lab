@@ -38,12 +38,6 @@ Enter incorrect passwords several times to generate failed authentication logs.
 
 Repeat this process multiple times to simulate attack activity.
 
-Screenshot
-
-Insert screenshot showing failed SSH login attempts from terminal.
-
-![Failed SSH Attempts](ADD_IMAGE_LINK_HERE)
-
 ## Step 2: Verify Logs on the Ubuntu Server
 
 SSH authentication activity is recorded in the system authentication log.
@@ -54,12 +48,6 @@ sudo cat /var/log/auth.log | grep ssh
 
 This command filters and displays SSH login activity including failed authentication attempts.
 
-Screenshot
-
-Insert screenshot showing SSH log entries in the terminal.
-
-![SSH Log Entries](ADD_IMAGE_LINK_HERE)
-
 ## Step 3: Search Authentication Logs in Splunk
 
 Open the Splunk Search & Reporting interface and run the following query:
@@ -68,11 +56,7 @@ index=main sourcetype=linux_secure "Failed password"
 
 This search retrieves failed SSH login attempts collected from the authentication logs.
 
-Screenshot
-
-Insert screenshot showing failed login events in Splunk.
-
-![Splunk Failed Login Events](ADD_IMAGE_LINK_HERE)
+<img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/5e53a3ca-5189-4fb8-a167-33a7f0c6016f" />
 
 ## Step 4: Identify Suspicious Login Patterns
 
@@ -86,12 +70,7 @@ index=main "Failed password"
 
 This query helps identify IP addresses generating a high number of failed login attempts.
 
-Screenshot
-
-Insert screenshot showing statistics results in Splunk
-
-![Brute Force Detection Results](ADD_IMAGE_LINK_HERE)
-Result
+<img width="1920" height="751" alt="image" src="https://github.com/user-attachments/assets/7a8587a8-9633-4ca7-9b48-69a909278cca" />
 
 The simulated SSH brute force activity generated multiple failed authentication events in the system logs. These logs were successfully ingested into Splunk and analyzed using search queries.
 
