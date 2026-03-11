@@ -33,8 +33,8 @@ These logs will be monitored by Splunk for security analysis.
 # Steps to Ingest Authentication Logs into Splunk
 
 ## Step 1: Access Splunk Web Interface
-
-Open a browser on the host machine and navigate to:
+ 
+Open a browser on the host machine and navigate to
 
 
 http://localhost:8000
