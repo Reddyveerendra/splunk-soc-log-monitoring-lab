@@ -6,7 +6,7 @@ In this step of the SOC lab, a **port scanning activity** is simulated against t
 
 The generated logs are then analyzed in Splunk to identify scanning activity and detect suspicious network behavior.
 
----
+---  
 
 ## What is a Port Scan?
 

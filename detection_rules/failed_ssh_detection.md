@@ -88,7 +88,7 @@ This query helps identify IP addresses generating a high number of failed login 
 
 Screenshot
 
-Insert screenshot showing statistics results in Splunk.
+Insert screenshot showing statistics results in Splunk
 
 ![Brute Force Detection Results](ADD_IMAGE_LINK_HERE)
 Result
