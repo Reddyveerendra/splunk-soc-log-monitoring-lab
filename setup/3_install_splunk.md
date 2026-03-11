@@ -1,16 +1,16 @@
-## Splunk SOC Lab Setup – Splunk Enterprise Installation
+# Splunk SOC Lab Setup – Splunk Enterprise Installation
 
 This section explains how Splunk Enterprise was installed on Ubuntu 24.04.4 LTS Server using the command line.
 Splunk is used as the SIEM platform in this SOC lab to collect, analyse, and monitor system logs generated from the Ubuntu server.
 
-# Step 1: Update the System
+## Step 1: Update the System
 
 Update the package repository and upgrade existing packages before installing Splunk.
 
 sudo apt update
 sudo apt upgrade -y
 
-# Step 2: Download Splunk Enterprise
+## Step 2: Download Splunk Enterprise
 
 Download the Splunk .deb installation package directly using wget.
 
@@ -19,14 +19,10 @@ wget -O splunk.deb https://download.splunk.com/products/splunk/releases/9.2.0/li
 Verify the download:
 
 ls -lh
-Screenshot Required
 
-📸 Terminal showing the Splunk .deb file downloaded successfully
+<img width="966" height="506" alt="image" src="https://github.com/user-attachments/assets/ad647675-b029-4fe7-abe4-bd477f66a77e" />
 
-Example location to store screenshot:
-
-images/splunk_download.png
-# Step 3: Install Splunk
+## Step 3: Install Splunk
 
 Install the downloaded package using dpkg.
 
@@ -35,15 +31,9 @@ sudo dpkg -i splunk.deb
 Splunk will be installed in the following directory:
 
 /opt/splunk
-Screenshot Required
 
-📸 Terminal showing Splunk installation process
 
-Example:
-
-images/splunk_installation.png
-
-# Step 4: Start Splunk
+## Step 4: Start Splunk
 
 Start the Splunk service.
 
@@ -57,26 +47,16 @@ Create an admin username
 
 Create an admin password
 
-Screenshot Required
-
-📸 Terminal showing Splunk license agreement and startup
-
-Example:
-
-images/splunk_first_start.png
-# Step 5: Enable Splunk at System Boot
+## Step 5: Enable Splunk at System Boot
 
 Enable Splunk to start automatically when the server boots.
 
 sudo /opt/splunk/bin/splunk enable boot-start
-Screenshot Required
 
-📸 Terminal showing boot-start enabled
+<img width="918" height="107" alt="image" src="https://github.com/user-attachments/assets/e5a6c8ca-617c-42a0-b9bd-186fd3711a56" />
 
-Example:
 
-images/splunk_boot_start.png
-# Step 6: Verify Splunk Service
+## Step 6: Verify Splunk Service
 
 Check whether Splunk is running.
 
@@ -87,12 +67,10 @@ Expected output:
 splunkd is running
 Screenshot Required
 
-📸 Terminal showing Splunk status running
+<img width="798" height="88" alt="image" src="https://github.com/user-attachments/assets/ccbe0828-4075-4436-bbde-d3313f8825c4" />
 
-Example:
 
-images/splunk_status.png
-# Step 7: Configure Port Forwarding in VirtualBox
+## Step 7: Configure Port Forwarding in VirtualBox
 
 Since the virtual machine uses NAT networking, port forwarding must be configured to access Splunk from the host machine.
 
@@ -119,10 +97,10 @@ Screenshot Required
 
 📸 VirtualBox Port Forwarding configuration
 
-Example:
+<img width="1923" height="1001" alt="image" src="https://github.com/user-attachments/assets/6dd42489-a353-497f-8270-edab8359ef11" />
 
-images/virtualbox_port_forwarding.png
-# Step 8: Access Splunk from Host Machine
+
+## Step 8: Access Splunk from Host Machine
 
 After configuring port forwarding, open a browser on the host machine and navigate to:
 
@@ -130,16 +108,9 @@ http://localhost:8000
 
 Log in using the admin credentials created during installation.
 
-Screenshot Required
+<img width="1923" height="1083" alt="image" src="https://github.com/user-attachments/assets/176cc061-3c2c-4313-95de-b93db4cfeea7" />
 
-📸 Splunk Login Page
-
-Example:
-
-images/splunk_login.png
 
 📸 Splunk Home Dashboard after login
 
-Example:
-
-images/splunk_dashboard.png
+<img width="1923" height="1021" alt="image" src="https://github.com/user-attachments/assets/eaa13b96-c6a2-4b3a-b07f-c4fde271831b" />
