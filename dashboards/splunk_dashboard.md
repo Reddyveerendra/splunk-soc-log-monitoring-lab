@@ -32,8 +32,8 @@ index=main "Failed password"
 | stats count by src_ip
 | sort -count
 
-📸 Screenshot Required:
-Insert a screenshot of the SSH Failed Login Attempts panel here.
+<img width="1923" height="948" alt="image" src="https://github.com/user-attachments/assets/a70ccea9-4a51-4753-a9ee-caf93251dc77" />
+
 
 ## Panel 2: SSH Brute Force Detection
 
@@ -46,8 +46,7 @@ index=main "Failed password"
 | stats count by src_ip _time
 | where count > 5
 
-📸 Screenshot Required:
-Insert a screenshot of the SSH Brute Force Detection panel here.
+<img width="1923" height="586" alt="image" src="https://github.com/user-attachments/assets/78f5627c-2431-4a68-8920-ae9cac3b8a89" />
 
 ## Panel 3: Sudo Privilege Escalation Activity
 
@@ -58,8 +57,8 @@ index=main "sudo: pam_unix(sudo:session): session opened for user"
 | stats count by user
 | sort -count
 
-📸 Screenshot Required:
-Insert a screenshot of the Sudo Session Activity panel here.
+<img width="1923" height="587" alt="image" src="https://github.com/user-attachments/assets/1893f7eb-3c4f-4e7d-a790-81621fbc8db7" />
+
 
 ## Panel 4: Port Scan Detection
 
@@ -73,8 +72,8 @@ index=*
 | where unique_ports > 10
 | sort -unique_ports
 
-📸 Screenshot Required:
-Insert a screenshot of the Port Scan Detection panel here.
+<img width="961" height="334" alt="image" src="https://github.com/user-attachments/assets/c1f6cbd0-7912-4849-8bf3-3070f43034ff" />
+
 
 ## Panel 5: Most Targeted Ports
 
@@ -85,8 +84,8 @@ index=*
 | stats count by port
 | sort -count
 
-📸 Screenshot Required:
-Insert a screenshot of the Top Targeted Ports panel here.
+<img width="1923" height="622" alt="image" src="https://github.com/user-attachments/assets/c8178ed1-c394-47ff-885b-85228caf054f" />
+
 
 Security Insights
 
