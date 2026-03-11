@@ -30,30 +30,35 @@ https://www.virtualbox.org/
 
 This is the official website where you can download VirtualBox.
 
-https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/Download.png
+<img width="958" height="470" alt="image" src="https://github.com/user-attachments/assets/6651eb77-e49a-4df4-a9d1-3c9dd7549c04" />
+
 
 
 ### Step 2: Download VirtualBox
 Click **Download VirtualBox**.
 
-https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/Download.png
+<img width="1927" height="1087" alt="image" src="https://github.com/user-attachments/assets/a417c8ab-fe8a-4d98-83a8-6c8863c8a509" />
+
 
 ### Step 3: Select Windows Hosts
 Choose **Windows hosts** to download the installer for Windows.s
 
-https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/windows%20host.png
+<img width="964" height="544" alt="windows host" src="https://github.com/user-attachments/assets/79fc1955-47e4-459c-9c65-45cef3bea7bc" />
 
 ### Step 4: Run the Installer
 Open the downloaded **VirtualBox `.exe` file**.
 
-https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/VM%20in%20downloads.png
+<img width="1927" height="1087" alt="image" src="https://github.com/user-attachments/assets/4b1ac800-26e0-4881-8497-5e281d94bb46" />
+
 
 ### Step 5: Follow Installation Wizard
 Navigate through the installation prompts and keep the default settings.
 
-https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/next.png
+<img width="784" height="608" alt="image" src="https://github.com/user-attachments/assets/ca9da31e-2c79-4ae8-8d9d-a916bfb4e003" />
+
 
 ### Step 6: Finish Installation
 Click **Finish** after installation is completed.
 
-https://raw.githubusercontent.com/Reddyveerendra/splunk-soc-log-monitoring-lab/refs/heads/main/screenshots/last_install.png
+<img width="697" height="553" alt="image" src="https://github.com/user-attachments/assets/126adc30-6124-4fe0-8711-61a71b71bd22" />
+
