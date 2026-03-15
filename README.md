@@ -33,9 +33,7 @@ These logs are then forwarded to the **Splunk server**, where they are indexed a
 
 ### Architecture Diagram
 
-![Architecture Diagram](images/architecture.png)
-
-
+![Architecture Diagram](image.png)
 
 ---
 
